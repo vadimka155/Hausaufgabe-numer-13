@@ -23,6 +23,22 @@ font-family: "Roboto";
 
 }
 
+
+
+button{ 
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+  letter-spacing: 0.96px;
+  background-color: var(--color-blue);
+  border: 0px;
+  border-radius: 3%;
+}
+
+
 .main-section{
   background-color: var(--gray);
   text-align: center;
@@ -48,8 +64,8 @@ font-family: "Raleway";}
 
 
 
-.main-butto{background-color: var(--button);
-    color: aliceblue;
+.main-button{background-color: var(--button);
+    color: var(--white);
     font-size: 24px;
   
   }
