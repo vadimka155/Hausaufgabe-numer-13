@@ -28,7 +28,7 @@ font-family: "Raleway";}
 
 
 
-h1{
+.main-tittle{
   color: #FFFFFF;
   font-size: 44px;
   line-height: 1.4;
@@ -37,7 +37,10 @@ h1{
 }
 
 
-button{background-color: var(--button);
+
+
+
+.main-butto{background-color: var(--button);
     color: aliceblue;
     font-size: 24px;
   
@@ -66,8 +69,80 @@ line-height: 1.7;
 font-family: "Raleway";}
 
 
-  footer{background-color: var(--gray);}
+  .footer{background-color: var(--gray);}
 .address-footer{color: var(--white);}
 .li-footer{color: var(--gray);}
 .gmail-footer{color: var(--white);}
 .tel-footer{color:var(--white) ;}
+
+
+
+
+/*--------------PORTFOLIO--------------*/
+
+
+
+
+
+
+body{font-family: "Roboto";}
+.header-portfolio{color: rgb(255, 255, 255);}
+
+.logo-header-portfolio{   color: #000000;
+ font-size: 23px; 
+ text-decoration: none; 
+font-family:"Raleway";}
+
+
+
+
+.main-text-portfolio{
+font-weight: 400;
+font-size: 16px;
+line-height: 1.9;
+ color: #757575;
+}
+
+
+
+
+
+
+
+
+ .button-portfolio:hover {
+    background-color:var(--button);
+    transition: 0.7s;
+    text-decoration: none;
+}
+
+
+ .logo-footer-portfolio{color: var(--white);
+    font-size: 23px;
+    text-decoration: none; 
+font-family: "Raleway";
+}
+
+
+    .footer-portfolio{background-color: var(--gray);}
+
+    .footer-link-portfolio{color: var(--white);
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;}
+
+
+    .footer-item-portfolio{color: var(--gray);}
+
+    .gmail-footer-portfolio{color: var(--white);
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
+    }
+    
+    .tel-footer-portfolio{color:var(--white) ;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.7;
+    }
