@@ -13,16 +13,32 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: left;
-  
+
 color: #212121;
 
 }
 
 .navigation-link:hover{
   color: var(--button);
-  transition: 0.7;
+  transition: 0.4;
+
 }
 
+
+
+.logo-header{ color: #000000;
+  font-size: 23px; 
+font-weight: 700;
+line-height: 1.3;
+letter-spacing: 0.03em;
+
+  text-decoration: none; 
+font-family: "Raleway";
+
+
+
+
+}
 
 
 /*------------------------------------------СТУДІЯ-------------------------------------------------------*/
@@ -40,19 +56,7 @@ color: #212121;
 
 
 
-.logo-header{ color: #000000;
-  font-size: 23px; 
-font-weight: 700;
-line-height: 1.3;
-letter-spacing: 0.03em;
 
-  text-decoration: none; 
-font-family: "Raleway";
-
-
-
-
-}
 
 
 
@@ -276,3 +280,27 @@ font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
     }
+
+
+
+
+
+
+/*------------------------------------------FOOTER-------------------------------------------------------*/
+
+
+    .logo-footer{
+
+      font-family: "Raleway",sans-serif;
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 1.3;
+      letter-spacing: 0.03em;
+      
+      
+
+
+    }
+
+
+    
