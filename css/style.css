@@ -6,7 +6,9 @@
 }
 
 
-
+.logo-span{
+ color: var(--button);
+}
 
 body{
 font-family: "Roboto";
