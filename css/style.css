@@ -3,6 +3,8 @@
 
 /*------------------------------------------HEADER-------------------------------------------------------*/
 
+
+
 .navigation-link{
 
   font-family: "Roboto",sans-serif;
@@ -12,14 +14,14 @@
   letter-spacing: 0.02em;
   text-align: left;
   
-
-
-
-
-
+color: #212121;
 
 }
 
+.navigation-link:hover{
+  color: var(--button);
+  transition: 0.7;
+}
 
 
 
@@ -207,13 +209,20 @@ line-height: 1.9;
 }
 
 
+.button-portfolio{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.6;
+letter-spacing: 0.03em;
 
-
+}
 
 
 
 
  .button-portfolio:hover {
+  color: var(--white);
     background-color:var(--button);
     transition: 0.7s;
     text-decoration: none;
@@ -225,6 +234,24 @@ line-height: 1.9;
     text-decoration: none; 
 font-family: "Raleway";
 }
+
+
+
+.main-tittle-portfolio{
+
+  font-family: "Roboto",sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: left;
+  
+
+
+}
+
+
+
 
 
     .footer-portfolio{background-color: var(--gray);}
